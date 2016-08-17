@@ -25,6 +25,10 @@ module.exports = wallaby => {
     testFramework: 'mocha',
 
     setup: () => {
+      // to allow `require`-ing local node modules
+      // https://github.com/electron/electron/issues/11
+      require('module').globalPaths.push(require('path').join(process.cwd(), 'node_modules'));
+      
       window.expect = chai.expect;
     },
 
