@@ -1,0 +1,25 @@
+{
+  "name": "wallaby-electron-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wallaby.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallabyjs/wallaby-electron-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallabyjs/wallaby-electron-node/issues"
+  },
+  "homepage": "https://github.com/wallabyjs/wallaby-electron-node#readme",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015": "^6.13.2",
+    "chai": "^3.5.0",
+    "electron-prebuilt": "^1.3.3"
+  }
+}
